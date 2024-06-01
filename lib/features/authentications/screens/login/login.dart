@@ -30,12 +30,12 @@ class LoginScreen extends StatelessWidget {
 
               ///Divider
 
-              TLoginDivider(dividerText:TTexts.orSignInWith.capitalize!),
-              const SizedBox(height: TSizes.spaceBtwSections),
-
-              ///Socialss
-
-              const TSocialButtons()
+              // TLoginDivider(dividerText:TTexts.orSignInWith.capitalize!),
+              // const SizedBox(height: TSizes.spaceBtwSections),
+              //
+              // ///Socialss
+              //
+              // const TSocialButtons()
             ],
           ),
         ),
