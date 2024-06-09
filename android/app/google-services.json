@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150528328306",
+    "project_id": "training-df3db",
+    "storage_bucket": "training-df3db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150528328306:android:bb2280590c6325ee43f8eb",
+        "android_client_info": {
+          "package_name": "com.example.crt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFu36yi-uaupKW7c0_ZAdkDFcZHkdnQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

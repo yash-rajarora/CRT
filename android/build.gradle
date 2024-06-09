@@ -1,3 +1,19 @@
+buildscript{
+    ext {
+        compileSdkVersion = 33  // Set to the latest stable version
+        minSdkVersion = 24      // Set to at least 23 or higher as required
+        targetSdkVersion = 33   // Set to the latest stable version
+    }
+    ext.kotlin_version='1.7.10'
+    repositories{
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.15'
+    }
+}
 allprojects {
     repositories {
         google()
